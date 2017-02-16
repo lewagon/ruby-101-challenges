@@ -1,16 +1,20 @@
-require "method"
+require "better_palindrome"
 
-describe "#method" do
+describe "#better_palindrome?" do
 
-  it "test1" do
-    expect(method()).to be_a(Fixnum)
+  it "returns true for palindrome sentences" do
+    expect(better_palindrome?("mr owl ate my metal worm")).to be true
   end
 
-  it "test2" do
-    expect(method()).to eq(4)
+  it "returns false for non-palindrome sentences" do
+    expect(better_palindrome?("le wagon is a coding school")).to be false
   end
 
-  it "test3" do
-    expect(method()).to be true
+  it "returns true for palindrome sentences with capital letters" do
+    expect(better_palindrome?("A Santa Lived As a Devil At NASA")).to be true
+  end
+
+  it "returns true for palindrome sentences with punctuation" do
+    expect(better_palindrome?("a man, a plan, a canal-panama!")).to be true
   end
 end
