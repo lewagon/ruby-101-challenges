@@ -2,8 +2,7 @@ require 'word_counter'
 
 describe '#word_counter' do
   it 'returns a Fixnum' do
-    nb_words = word_counter('The quick brown fox jumps over the lazy dog')
-    expect(nb_words).to be_a(Integer)
+    expect(word_counter('The quick brown fox')).to be_a(Fixnum)
   end
 
   it "returns the correct number of words for 'The quick brown fox'" do
@@ -11,7 +10,7 @@ describe '#word_counter' do
     expect(nb_words).to eq(4)
   end
 
-  it "returns the correct number of words for 'Hello word!" do
+  it "returns the correct number of words for 'Hello word!'" do
     expect(word_counter('Hello world!')).to eq(2)
   end
 
