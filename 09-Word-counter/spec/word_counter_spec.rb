@@ -6,8 +6,7 @@ describe '#word_counter' do
   end
 
   it "returns the correct number of words for 'The quick brown fox'" do
-    nb_words = word_counter('The quick brown fox')
-    expect(nb_words).to eq(4)
+    expect(word_counter('The quick brown fox')).to eq(4)
   end
 
   it "returns the correct number of words for 'Hello word!'" do
