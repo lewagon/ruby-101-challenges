@@ -5,8 +5,8 @@
 
 ## Examples
 
-`word_count("The quick brown fox jumps over the lazy dog")` should return `9`
-`word_count("Le Wagon")` should return `2`
+- `word_count("The quick brown fox jumps over the lazy dog")` should return `9`
+- `word_count("Le Wagon")` should return `2`
 
 ## Key Learning Points
 
