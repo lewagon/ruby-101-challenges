@@ -6,7 +6,7 @@ The four nucleotides found in DNA are adenine (**A**), cytosine (**C**), guanine
 
 Given a DNA strand, its transcribed RNA strand is formed by replacing each nucleotide with its complement:
 
-`DNA` // `RNA`
+* `DNA` / `RNA`
 * `G` -> `C`
 * `C` -> `G`
 * `T` -> `A`
