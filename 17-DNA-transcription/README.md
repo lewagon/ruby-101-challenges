@@ -1,42 +1,29 @@
-# Rna Transcription
+## Background
 
-Write a program that, given a DNA strand, returns its RNA complement (per RNA transcription).
+DNA Transcription is the first step of gene expression (transforming the DNA into observable traits). This first step transcribes a DNA strand into its RNA complement. Both DNA and RNA strands are a sequence of nucleotides.
 
-Both DNA and RNA strands are a sequence of nucleotides.
-
-The four nucleotides found in DNA are adenine (**A**), cytosine (**C**), guanine (**G**) and thymidine (**T**).
-
-The four nucleotides found in RNA are adenine (**A**), cytosine (**C**), guanine (**G**) and uracil (**U**).
+The four nucleotides found in DNA are adenine (**A**), cytosine (**C**), guanine (**G**) and thymidine (**T**). The four nucleotides found in RNA are adenine (**A**), cytosine (**C**), guanine (**G**) and uracil (**U**).
 
 Given a DNA strand, its transcribed RNA strand is formed by replacing each nucleotide with its complement:
 
-* `G` -> `C`
-* `C` -> `G`
-* `T` -> `A`
-* `A` -> `U`
-
-
-
-## Background
-
-A Palindrome is a word or phrase which reads the same backward or forward. A Palindrome sentence would be "mr owl ate my metal worm".
+* `DNA` -> `RNA`
+* ` G ` -> ` C `
+* ` C ` -> ` G `
+* ` T ` -> ` A `
+* ` A ` -> ` U `
 
 ## Specs
 
-- Implement a Ruby method `better_palindrome?` that checks if a given sentence is a palindrome
-- This method should take one argument (sentence), a `String`, and return a `Boolean` (true of false), telling us if the given sentence is a palindrome or not
-- It should not be affected by spaces between words of the sentences (by ignoring them)
-- It should not be affected by capital letters
-- It should not be affected by punctuation (by ignoring them)
+- Implement a Ruby method `dna_transcription` that builds the complementary RNA strand for a given DNA strand
+- This method should take one argument (dna_sequence), an `Array` of `Strings`, and return another `Array` of `Strings`
+- It should not be affected by downcase nucleotides
+- It should handle gracefuly unkown nucleotides (by ingoring them)
 
-`better_palindrome?("mr owl ate my metal worm")` should return `true`
+`dna_transcription(['C', 'G', 'T', 'A'])` should return `['G', 'C', 'A', 'U']`
 
-`better_palindrome?("le wagon is a coding school")` should return `false`
-
-`better_palindrome?("A Man, A Plan, A Canal-Panama!")` should return `true`
+`dna_transcription(['c', 'G', 't', 'A'])` should return `['G', 'C', 'A', 'U']`
 
 ## Key Learning Points
 
-- `String` methods
-- Predicate methods (methods that return true or false)
-- Dealing with punctuation, spaces and capitalization
+- Loops and Conditionals
+- Returning an `Array`
