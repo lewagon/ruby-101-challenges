@@ -5,5 +5,3 @@ def max(a, b)
     return b
   end
 end
-
-puts max(3, 6)
