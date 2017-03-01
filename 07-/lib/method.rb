@@ -1,3 +1,1 @@
-def method(parameter)
-  # TODO:
-end
+# array
