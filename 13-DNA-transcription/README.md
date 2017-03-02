@@ -17,7 +17,7 @@ Given a DNA strand, its transcribed RNA strand is formed by replacing each nucle
 - Implement a Ruby method `dna_transcription` that builds the complementary RNA strand for a given DNA strand
 - This method should take one argument (dna_sequence), an `Array` of `Strings`, and return another `Array` of `Strings`
 - It should not be affected by downcase nucleotides
-- It should handle gracefuly unkown nucleotides (by ingoring them)
+- It should handle gracefuly **unkown** nucleotides (by ingoring them)
 
 `dna_transcription(['C', 'G', 'T', 'A'])` should return `['G', 'C', 'A', 'U']`
 
