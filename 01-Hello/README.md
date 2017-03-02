@@ -1,14 +1,9 @@
-## Specs
+## Background
 
-- Implement a Ruby method `word_count` that counts the number of words in a given sentence
-- This method should take one argument (sentence), a `String`, and return a `Fixnum` representing the number of words in the sentence
-
-`word_count("The quick brown fox jumps over the lazy dog")` should return `9`
-
-`word_count("Le Wagon")` should return `2`
+We will have a look at **variables** here. Let's **assign** the variables in `hello.rb` with you first and last name. We will use these variables to `puts` a welcome message using **interpolation**.
 
 ## Key Learning Points
 
-- `String` methods
-- `return` statement in methods
-- Chaining methods
+- Variables
+- Strings
+- Interpolation
