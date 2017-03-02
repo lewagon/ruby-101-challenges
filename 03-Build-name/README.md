@@ -18,4 +18,4 @@ We will have a look at defining you own **method**. You can see methods as small
 - Methods
 - Methods **return** something and then you operate on that (for example you can `puts` it)
 - Interpolation
-- Methods Parameters vs. Arguments
+- Method Parameters vs. Arguments
