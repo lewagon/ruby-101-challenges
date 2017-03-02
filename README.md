@@ -2,7 +2,7 @@
 
 ## Welcome to the Ruby workshop exercises!
 
-#### Quick-start Instructions
+### Quick-start Instructions
 
 - Sign up to C9 using the email you recieved
 - Create a new workspace and clone the `ruby-base` workspace
