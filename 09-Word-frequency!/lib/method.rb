@@ -1,2 +1,0 @@
-# Word frequency
-# reutrn hash
