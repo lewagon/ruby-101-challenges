@@ -14,3 +14,4 @@
 - `Hashes`
 - `return` statement in methods
 - Conditionals and Loops
+- Incrementing variables

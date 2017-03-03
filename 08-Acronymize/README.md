@@ -9,9 +9,9 @@ An Acronym is a word formed as an abbreviation from the initial letters of words
 - The resulting acronmym should be all caps
 - It should not be affected by words already capitalized
 
-`acronymize("as soon as possible")` should return `ASAP`
+`acronymize("as soon as possible")` should return `"ASAP"`
 
-`acronymize("Not Safe for Work")` should return `NSFW`
+`acronymize("Not Safe for Work")` should return `"NSFW"`
 
 ## Key Learning Points
 
