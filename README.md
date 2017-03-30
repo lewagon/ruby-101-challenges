@@ -1,5 +1,7 @@
 ## Welcome to the Ruby workshop exercises!
 
+You can find our Ruby cheatsheet [here](https://github.com/lewagon/ruby-101).
+
 ### Quick-start Instructions
 
 - Sign up to C9 using the email you recieved

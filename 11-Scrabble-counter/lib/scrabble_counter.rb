@@ -5,6 +5,6 @@ SCRABBLE_POINTS = { "A"=>1, "B"=>3, "C"=>3, "D"=>2,
   "W"=>4, "X"=>8, "Y"=>4, "Z"=>10 }
 
 def scrabble_counter(sentence)
-  # TODO: return the total number of points based on the hash above
+  # TODO: return the total number of points scored for the sentencec based on the hash above
 
 end
