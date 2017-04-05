@@ -22,11 +22,15 @@ Have fun!
 ![GitHub Logo](/_images/clone_forked_repo.png)
 ![GitHub Logo](/_images/git_clone.png)
 
-5. (Optional) Change the default editor theme to `Github` or other
+5. (Optional) Change the default editor theme to `Chrome`, `TextMate` or other
 ![GitHub Logo](/_images/set_editor_theme.png)
 
-6. Start working on the exercises. Don't forget the read the `README.md` file (you can right-click > Preview) for each exercise!
-![GitHub Logo](/_images/start_coding.png)
+6. Start working on the exercises. Don't forget the read the `README.md` file (you can right-click > Preview) for each exercise! Each exercise has
+![GitHub Logo](/_images/readme_view.png)
+![GitHub Logo](/_images/coding_view.png)
+![GitHub Logo](/_images/run_push.png)
+
+---
 
 Don't hesitate if you have any questions, we are here to help!
 Any troubles back home? Send me an email to: `alex@lewagon.com`
