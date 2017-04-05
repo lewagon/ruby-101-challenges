@@ -32,6 +32,5 @@ Have fun!
 
 ---
 
-Don't hesitate if you have any questions, we are here to help!
-
-Any troubles back home? Send me an email to: `alex@lewagon.com`
+- Don't hesitate if you have any questions, we are here to help!
+- Any troubles back home? Send me an email to: `alex@lewagon.com`
