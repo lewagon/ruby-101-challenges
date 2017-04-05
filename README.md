@@ -1,6 +1,9 @@
 ## Welcome to the Ruby workshop exercises!
 
 You can find our Ruby cheatsheet [here](https://github.com/lewagon/ruby-101).
+This will also be helpful, a [video](https://www.youtube.com/watch?v=Z9fIBT2NBGY) and [slides](https://www.slideshare.net/ssaunier/le-wagon-git-github) of our git/Github workshop.
+You can also have a look at this [tutorial)](https://wsvincent.com/terminal-command-line-for-beginners/) on how to use the Terminal.
+Have fun!
 
 ### Quick-start Instructions
 
