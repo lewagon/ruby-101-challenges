@@ -4,9 +4,9 @@
 
 - You can find our Ruby cheatsheet [here](https://github.com/lewagon/ruby-101).
 - This will also be helpful, a [video](https://www.youtube.com/watch?v=Z9fIBT2NBGY) and [slides](https://www.slideshare.net/ssaunier/le-wagon-git-github) of our git/Github workshop.
-- You can also have a look at this [tutorial)](https://wsvincent.com/terminal-command-line-for-beginners/) on how to use the Terminal.
+- You can also have a look at this [tutorial](https://wsvincent.com/terminal-command-line-for-beginners/) on how to use the Terminal.
 
-Have fun! :rocket:
+Have fun! :tada:
 
 ### Quick-start Instructions
 
@@ -21,7 +21,7 @@ Have fun! :rocket:
 3. Fork this repository into you own Github account. You can click [here](https://github.com/lewagon/ruby-101-challenges/fork) to fork it or go to the fork button at the top of this page
 ![Fork Repo](/_images/fork_repo.png)
 
-4. Clone the repository your just forked using `https` into you workspace. You clond it in your C9 enironment by running `git clone` followed by the url you just copied in the Terminal
+4. Clone the repository your just forked using `https` into you workspace. You clone it in your C9 enironment by running `git clone` followed by the url you just copied in the Terminal
 ![Get Forker Url](/_images/clone_forked_repo.png)
 ![Clone Forked Repo Repo](/_images/git_clone.png)
 
