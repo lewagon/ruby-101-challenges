@@ -4,24 +4,26 @@ You can find our Ruby cheatsheet [here](https://github.com/lewagon/ruby-101).
 
 ### Quick-start Instructions
 
-- Sign up to C9 using the email you recieved
+1. Sign up to C9 using the email you recieved
 ![Sign Up](/_images/create_account.png)
 ![Sign Up](/_images/confirm_account.png)
 
-- Create a new workspace and clone the `ruby-base` workspace
+2. Create a new workspace and clone the `ruby-base` workspace
 ![GitHub Logo](/_images/create_workspace.png)
 ![GitHub Logo](/_images/clone_workspace.png)
 
-- Fork this repository into you own Github account
+3. Fork this repository into you own Github account. You can click [here](https://github.com/lewagon/ruby-101-challenges/fork) to fork it or go to the fork button at the top of this page
 ![GitHub Logo](/_images/fork_repo.png)
 
-- Clone it using `https` into you workspace
+4. Clone the repository your just forked using `https` into you workspace. You clond it in your C9 enironment by running `git clone` followed by the url you just copied in the Terminal
 ![GitHub Logo](/_images/clone_forked_repo.png)
+![GitHub Logo](/_images/git_clone.png)
 
-- (Optional) Change the default editor theme to `Github` or other
+5. (Optional) Change the default editor theme to `Github` or other
 ![GitHub Logo](/_images/set_editor_theme.png)
 
-- Start working on the exercises
+6. Start working on the exercises. Don't forget the read the `README.md` file (you can right-click > Preview) for each exercise!
 ![GitHub Logo](/_images/start_coding.png)
 
-- Don't hesitate if you have any questions, we are here to help!
+Don't hesitate if you have any questions, we are here to help!
+Any troubles back home? Send me an email to: `alex@lewagon.com`
