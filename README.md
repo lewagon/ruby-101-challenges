@@ -21,7 +21,7 @@ Have fun! :tada:
 3. Fork this repository into you own Github account. You can click [here](https://github.com/lewagon/ruby-101-challenges/fork) to fork it or go to the fork button at the top of this page
 ![Fork Repo](/_images/fork_repo.png)
 
-4. Clone the repository your just forked using `https` into you workspace. You clone it in your C9 enironment by running `git clone` followed by the url you just copied in the Terminal
+4. Clone the repository your just forked using `https` into you workspace. You clone it in your C9 environment by running `git clone` followed by the url you just copied in the Terminal
 ![Get Forker Url](/_images/clone_forked_repo.png)
 ![Clone Forked Repo Repo](/_images/git_clone.png)
 
