@@ -10,7 +10,7 @@ Have fun! :tada:
 
 ### Quick-start Instructions
 
-1. Sign up to C9 using the email you recieved
+1. Sign up to C9 using the email you received
 ![Create Account](/_images/create_account.png)
 ![Confirm Account](/_images/confirm_account.png)
 
