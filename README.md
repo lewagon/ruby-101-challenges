@@ -14,6 +14,7 @@ Have fun! :tada:
 ![Create Account](/_images/create_account.png)
 ![Confirm Account](/_images/confirm_account.png)
 
+
 2. Create a new workspace and clone the `ruby-base` workspace
 ![Create Workspace](/_images/create_workspace.png)
 ![Clone Workspace](/_images/clone_workspace.png)
