@@ -1,9 +1,9 @@
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new :spec
 
-desc 'Look for style guide offenses in your code'
-task :rubocop do
-  sh 'rubocop --format simple || true'
+require 'rubocop/rake_task'
+RuboCop::RakeTask.new :rubocop do |t|
+  t.options = ['lib/*.rb', '--config=../.rubocop.yml']
 end
 
 task default: [:rubocop, :spec]
