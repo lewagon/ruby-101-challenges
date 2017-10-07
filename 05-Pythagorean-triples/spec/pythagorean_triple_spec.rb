@@ -9,7 +9,7 @@ describe '#pythagoeran_triple?' do
     expect(pythagorean_triple?(2,3,4)).to be false
   end
 
-  it 'returns false when any argument is not a Fixnum' do
+  it 'returns false when any argument is not an Integer' do
     expect(pythagorean_triple?('wagon',2,10)).to be false
   end
 end

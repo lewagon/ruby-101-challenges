@@ -1,7 +1,7 @@
 ## Specs
 
 - Implement a Ruby method `max` that finds the maximum/highest number between two numbers
-- This method should take two arguments (a, b), both `Fixnums`, and **return** another `Fixnum`, the highest number.
+- This method should take two arguments (a, b), both `Integers`, and **return** another `Integer`, the highest number.
 
 `max(3, 9)` should return `9`
 

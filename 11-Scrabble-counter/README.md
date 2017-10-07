@@ -5,7 +5,7 @@ Scrabble is a word game where you score points depending on the complexity of th
 ## Specs
 
 - Implement a Ruby method `scrabble_counter` that calculates the total Scrabble score of a word/sentence
-- This method should take one argument (sentence), a `String`, and return a `Fixnum`, representing the score of the word/sentence
+- This method should take one argument (sentence), a `String`, and return an `Integer`, representing the score of the word/sentence
 - The method should also work for sentences, which include spaces
 - The method should also work if the sentence contains capital letters
 

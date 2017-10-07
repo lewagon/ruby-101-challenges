@@ -5,7 +5,7 @@ In this exercise, we want to calculate the amount of calories in our McDonalds o
 ## Specs
 
 - Implement a Ruby method `calorie_counter` that calculates the total calories in a McDonalds order
-- This method should take one argument (order), an `Array` of `Strings`, and return a `Fixnum`, representing the total amount of calories in the order
+- This method should take one argument (order), an `Array` of `Strings`, and return an `Integer`, representing the total amount of calories in the order
 - If an element in the order is a meal, we should use the `CALORIES` hash to get the calories of each element in the meal
 
 `calorie_counter(['Big Mac', 'Coca'])` should return `665`

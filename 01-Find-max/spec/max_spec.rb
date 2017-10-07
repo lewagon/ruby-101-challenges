@@ -1,8 +1,8 @@
 require 'max'
 
 describe '#max' do
-  it 'returns a Fixnum' do
-    expect(max(2, 5)).to be_a(Fixnum)
+  it 'returns an Integer' do
+    expect(max(2, 5)).to be_a(Integer)
   end
 
   it 'returns the correct highest number for 2 and 5' do

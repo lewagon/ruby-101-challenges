@@ -1,8 +1,8 @@
 require 'scrabble_counter'
 
 describe '#scrabble_counter' do
-  it 'returns a Fixnum' do
-    expect(scrabble_counter('wagon')).to be_a(Fixnum)
+  it 'returns an Integer' do
+    expect(scrabble_counter('wagon')).to be_a(Integer)
   end
 
   it "returns the correct score for the word 'wagon'" do

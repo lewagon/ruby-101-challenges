@@ -5,8 +5,8 @@ Fizz buzz is a group word game. Players take turns to count incrementally, repla
 ## Specs
 
 - Implement a Ruby method `fizzbuzz` that builds a list of fizzbuzz elements
-- This method should take one argument (max), a `Fixnum`, and return an `Array` containing `Fixnums` and `Strings` where appropriate (see examples)
-- You can assume the single argument is a `Fixnum`
+- This method should take one argument (max), a `Integer`, and return an `Array` containing `Integers` and `Strings` where appropriate (see examples)
+- You can assume the single argument is a `Integer`
 
 `fizzbuzz(6)` should return `[1, 2, 'Fizz', 4, 'Buzz', 'Fizz']`
 

@@ -5,8 +5,8 @@ Pythagorean Triples consist of three positive integers that are solutions of Pyt
 ## Specs
 
 - Implement a Ruby method `pythagoran_triple?` that checks if three numbers are Pythagorean triples
-- This method should take three argument (a, b, c), `Fixnums`, and return a `Boolean` indicating if the three integers are solutions of Pythagoras's theorem, that is `a^2 + b^2 = c^2`
-- It should handle gracefuly the case where an argument in not a `Fixnum` but returning false
+- This method should take three argument (a, b, c), `Integers`, and return a `Boolean` indicating if the three integers are solutions of Pythagoras's theorem, that is `a^2 + b^2 = c^2`
+- It should handle gracefuly the case where an argument in not an `Integer` but returning false
 - **Note**: the order of the arguments matters
 
 `pythagoran_triple?(3, 4, 5)` should return `true`

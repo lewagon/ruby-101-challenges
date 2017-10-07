@@ -1,8 +1,8 @@
 require 'roman_converter'
 
 describe '#roman_converter' do
-  it 'returns a Fixnum' do
-    expect(roman_converter("XXIII")).to be_a(Fixnum)
+  it 'returns an Integer' do
+    expect(roman_converter("XXIII")).to be_a(Integer)
   end
 
   it 'returns the correct numver for XXIII' do

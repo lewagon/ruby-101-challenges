@@ -1,8 +1,8 @@
 require 'calorie_counter'
 
 describe '#calorie_counter' do
-  it 'returns a Fixnum' do
-    expect(calorie_counter(['Happy Meal'])).to be_a(Fixnum)
+  it 'returns an Integer' do
+    expect(calorie_counter(['Happy Meal'])).to be_a(Integer)
   end
 
   it 'returns the correct total calories for a Big Mac and a Coca' do
