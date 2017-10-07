@@ -1,4 +1,4 @@
-require 'calorie_counter'
+require_relative '../lib/calorie_counter'
 
 describe '#calorie_counter' do
   it 'returns an Integer' do

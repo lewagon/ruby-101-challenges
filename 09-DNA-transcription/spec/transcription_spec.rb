@@ -1,4 +1,4 @@
-require 'transcription'
+require_relative '../lib/transcription'
 
 describe '#dna_transcription' do
   it 'returns an Array' do

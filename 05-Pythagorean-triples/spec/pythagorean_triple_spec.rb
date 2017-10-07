@@ -1,4 +1,4 @@
-require 'pythagorean_triple'
+require_relative '../lib/pythagorean_triple'
 
 describe '#pythagoeran_triple?' do
   it 'returns true for 3, 4 and 5' do

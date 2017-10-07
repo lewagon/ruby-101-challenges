@@ -1,4 +1,4 @@
-require 'word_frequency'
+require_relative '../lib/word_frequency'
 
 describe '#word_frequency' do
   it 'returns a hash' do

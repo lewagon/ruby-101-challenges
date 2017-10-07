@@ -1,4 +1,4 @@
-require 'max'
+require_relative '../lib/max'
 
 describe '#max' do
   it 'returns an Integer' do

@@ -1,4 +1,4 @@
-require 'pangram'
+require_relative '../lib/pangram'
 
 describe '#pangram?' do
   it 'returns true for pangram sentences' do

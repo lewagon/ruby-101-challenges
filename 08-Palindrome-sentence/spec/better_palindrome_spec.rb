@@ -1,4 +1,4 @@
-require 'better_palindrome'
+require_relative '../lib/better_palindrome'
 
 describe '#better_palindrome?' do
   it 'returns true for palindrome sentences' do

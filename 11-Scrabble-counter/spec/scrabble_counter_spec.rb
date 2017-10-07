@@ -1,4 +1,4 @@
-require 'scrabble_counter'
+require_relative '../lib/scrabble_counter'
 
 describe '#scrabble_counter' do
   it 'returns an Integer' do

@@ -1,4 +1,4 @@
-require 'roman_converter'
+require_relative '../lib/roman_converter'
 
 describe '#roman_converter' do
   it 'returns an Integer' do

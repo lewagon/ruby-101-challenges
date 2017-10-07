@@ -1,4 +1,4 @@
-require 'acronymize'
+require_relative '../lib/acronymize'
 
 describe '#acronymize' do
   it 'returns a String' do

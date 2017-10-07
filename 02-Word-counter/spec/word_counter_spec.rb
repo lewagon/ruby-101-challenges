@@ -1,4 +1,4 @@
-require 'word_counter'
+require_relative '../lib/word_counter'
 
 describe '#word_counter' do
   it 'returns an Integer' do

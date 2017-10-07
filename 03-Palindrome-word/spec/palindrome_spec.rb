@@ -1,4 +1,4 @@
-require 'palindrome'
+require_relative '../lib/palindrome'
 
 describe '#palindrome?' do
   it 'returns true for palindrome words' do

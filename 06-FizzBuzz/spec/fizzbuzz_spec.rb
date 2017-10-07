@@ -1,4 +1,4 @@
-require 'fizzbuzz'
+require_relative '../lib/fizzbuzz'
 
 describe '#fizzbuzz' do
   it 'returns an Array' do
