@@ -34,8 +34,7 @@ Casecmp:
   Enabled: false
 CyclomaticComplexity:
   Enabled: false
-# remove this when we pass on ruby 2.4+
-UnifiedInteger:
+RedundantReturn:
   Enabled: false
 
 AllCops:
