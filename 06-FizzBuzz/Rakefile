@@ -6,4 +6,4 @@ RuboCop::RakeTask.new :rubocop do |t|
   t.options = ['lib/*.rb', '--config=../.rubocop.yml']
 end
 
-task default: [:rubocop, :spec]
+task default: [:spec, :rubocop]
