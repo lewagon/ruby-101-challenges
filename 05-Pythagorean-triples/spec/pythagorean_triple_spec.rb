@@ -8,8 +8,4 @@ describe '#pythagoeran_triple?' do
   it 'returns false for 2, 3 and 4' do
     expect(pythagorean_triple?(2,3,4)).to be false
   end
-
-  it 'returns false when any argument is not an Integer' do
-    expect(pythagorean_triple?('wagon',2,10)).to be false
-  end
 end
