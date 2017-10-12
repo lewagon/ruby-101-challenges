@@ -7,8 +7,6 @@
 
 `max(5, 1)` should return `5`
 
-Note: you can run `rake` in the **Terminal** to test your code or run the ruby file using `ruby lib/max.rb`, but don't forget to call and `puts` what returns from your method when you call it
-
 ## Key Learning Points
 
 - Methods
