@@ -1,0 +1,11 @@
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new :spec do |t|
+  t.fail_on_error = false
+end
+
+require 'rubocop/rake_task'
+RuboCop::RakeTask.new :rubocop do |t|
+  t.options = ['lib/*.rb', '--config=../.rubocop.yml']
+end
+
+task default: [:spec, :rubocop]
