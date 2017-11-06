@@ -6,6 +6,8 @@
 
 `mean(2, 3)` should return `2.5`
 
+`mean(2.5, 3)` should return `2.75`
+
 ## Key Learning Points
 
 - `Integer` methods
