@@ -1,11 +1,11 @@
 ## Specs
 
-- Implement a ruby method that returns an `Array` of [billboard top 3 artists](http://www.billboard.com/charts/artist-100) with your favorite artist in first position!
-- The method should take an `Array` of 3 top artists and your favorite artist as a `String` in parameters.
+- Implement a ruby method that returns an `Array` of the playlist with your new favorite song inside!
+- The method should take an `Array` of your current playlist and add your new favorite song as a `String` in parameters.
 
-`favorite_artists(["Niall Horan", "Pink", "Ed Sheeran"], "Mc Solaar")` should return:
+`add_song_to_playlist(["Hotel California", "Bohemian Rhapsody", "Stairway To Heaven"], "Despacito")` should return:
 
-`["Mc Solaar", "Niall Horan", "Pink"]`
+`["Hotel California", "Bohemian Rhapsody", "Stairway To Heaven", "Despacito"]`
 
 ## Key Learning Points
 
