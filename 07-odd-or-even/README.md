@@ -1,16 +1,14 @@
 ## Specs
 
-- Implement a Ruby method `palindrome?` that checks if a given word is a palindrome
-- This method should take one argument (word), a `String`, and return a `Boolean` (true of false), telling us if the given word is a palindrome or not
-- You can assume the one argument is a single word
-- It should not be affected by capital letters
+- Implement a Ruby method `odd_or_even` that return the string `"odd"` or `"even"` depending on the given number.
+- This method should take one argument (number), an `Integer`, and return a `String` (`"odd"` or `"even"`).
 
-`palindrome?("racecar")` should return `true`
+`odd_or_even(2)` should return `"odd"`
 
-`palindrome?("wagon")` should return `false`
+`odd_or_even(3)` should return `"even"`
 
 ## Key Learning Points
 
-- `String` methods
+- `Integer` methods
+- `Conditionals`
 - `return` statement in methods
-- Predicate methods (methods that return true or false)
