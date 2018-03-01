@@ -1,4 +1,4 @@
-require_relative '../lib/add-song-to-playlist'
+require_relative '../lib/add_song_to_playlist'
 
 describe "#add_song_to_playlist" do
   it "should return an Array" do

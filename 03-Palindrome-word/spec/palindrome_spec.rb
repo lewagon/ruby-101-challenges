@@ -9,7 +9,7 @@ describe '#palindrome?' do
     expect(palindrome?('wagon')).to be false
   end
 
-  it 'returns true for capitalized palindrome words' do
+  it 'returns true for palindrome words that start with a capital letter' do
     expect(palindrome?('Stats')).to be true
   end
 end

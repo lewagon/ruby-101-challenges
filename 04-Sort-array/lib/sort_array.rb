@@ -3,6 +3,6 @@ def sort_array(array)
 
 end
 
-# For example:
-# sort_array(['Jessica', 'Alex', 'Ben'])
-# => ['Alex', 'Ben', 'Jessica']
+# To see the result of this method you can uncomment the line below:
+# p sort_array(['Jessica', 'Alex', 'Ben'])
+
