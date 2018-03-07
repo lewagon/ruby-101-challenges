@@ -16,7 +16,7 @@
 - path: '06-Playlist-array'
   file_name: 'add_song_to_playlist.rb'
   group: 'Arrays'
-- path: '07-Odd-or-even'
+- path: '07-odd-or-even'
   file_name: 'odd_or_even.rb'
   group: 'Conditionals'
 - path: '08-Can-you-vote'
